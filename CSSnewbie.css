@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+
+body {
+   background-color: #e1eafa;
+   background-image: url("pattern-background-desktop.svg");
+   background-repeat: no-repeat;
+   font-family: 'Nunito sans';
+}
+.center {
+    width: 380px;
+    height: 400px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    border-radius: 0px 0px 15px 15px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -190px;
+}
+h1 {
+    text-align: center;
+    margin: 38px 0px 0px 0px;
+    font-weight: bolder;
+}
+article {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    color: #7e8fa5;
+    font-size: 15px;
+}
+.plan {
+    list-style: grid;
+    margin: 15px 30px 0px 30px;
+    padding: 20px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f8fafd;
+    height: 65px;
+
+}
+.proceed {
+    text-align: center;
+    margin: 25px 30px 0px 30px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    background-color: #0000ff;
+    height: 30px;
+    color: #ffffff;
+    font-size: 13px;
+}
+.cancel {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    font-size: 13px;
+    color:#7e8fa5;
+}
+.hero {
+    width: 380px;
+    margin-left: -190px;
+    border-radius: 15px 15px 0px 0px;
+    position:absolute;
+    bottom: 100%;
+    left: 50%;
+}
+.annual {
+    font-size: 15px;
+}
+.money {
+    color: #7e8fa5;
+}
+.change {
+    font-size: 13px;
+    position: absolute;
+    bottom: 44%; 
+    left: 75%;
+}
+.sub {
+    position: relative;
+    bottom: 108%;
+    left: 26%;
+}
+.music {
+    position: relative;
+    left: 6%;
+}
+.line {
+    text-decoration: none;
+    font-weight: bolder;
+}

@@ -22,7 +22,7 @@ h1 {
     margin: 38px 0px 0px 0px;
     font-weight: bolder;
 }
-article {
+.content {
     text-align: center;
     margin: 15px 0px 0px 0px;
     color: #7e8fa5;

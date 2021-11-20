@@ -70,8 +70,9 @@ h1 {
 }
 .change {
     font-size: 13px;
+    font-weight: bold;
     position: absolute;
-    bottom: 44%; 
+    bottom: 42%; 
     left: 75%;
 }
 .sub {

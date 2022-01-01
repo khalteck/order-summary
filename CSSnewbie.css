@@ -5,17 +5,20 @@ body {
    background-image: url("pattern-background-desktop.svg");
    background-repeat: no-repeat;
    font-family: 'Nunito sans';
+   overflow-x: hidden;
+   width: 100vw;
+   min-height: 850px;
 }
 .center {
-    width: 380px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 800px;
+    position: relative;
+    top: 40px;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
     background-color: #ffffff;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    margin-left: -190px;
+    margin: auto;
+    display: block;
 }
 h1 {
     text-align: center;
@@ -29,6 +32,8 @@ h1 {
     font-size: 15px;
 }
 .plan {
+    display: flex;
+    justify-content: space-between;
     list-style: grid;
     margin: 15px 30px 0px 30px;
     padding: 20px 0px 0px 0px;
@@ -55,15 +60,12 @@ h1 {
     color:#7e8fa5;
 }
 .hero {
-    width: 380px;
-    margin-left: -190px;
+    width: 100%;
     border-radius: 15px 15px 0px 0px;
-    position:absolute;
-    bottom: 100%;
-    left: 50%;
 }
 .annual {
     font-size: 15px;
+    font-weight: 700;
 }
 .money {
     color: #7e8fa5;
@@ -71,20 +73,25 @@ h1 {
 .change {
     font-size: 13px;
     font-weight: bold;
-    position: absolute;
-    bottom: 42%; 
-    left: 75%;
+    margin-right: 18px;
 }
 .sub {
+    margin: 0;
     position: relative;
-    bottom: 108%;
-    left: 26%;
+    right: 38px;
 }
 .music {
-    position: relative;
-    left: 6%;
+    margin-left: 18px;
+    width: 50px;
+    height: 50px;
 }
 .line {
     text-decoration: none;
     font-weight: bolder;
+}
+.line2 {
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+    bottom: 15px;
 }
